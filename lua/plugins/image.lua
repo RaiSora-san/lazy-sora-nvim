@@ -1,0 +1,37 @@
+-- return {
+--   {
+--     "3rd/image.nvim",
+--     build = false,
+--     dependencies = {
+--       {
+--         "vhyrro/luarocks.nvim",
+--         priority = 1001,
+--         opts = {
+--           rocks = { "magick" },
+--         },
+--       },
+--     },
+--     opts = {
+--       enable = false,
+--       -- Change this depending on what terminal emulator you use:
+--       -- "kitty" for Kitty or Ghostty
+--       -- "sixel" for Foot or WezTerm
+--       backend = "kitty",
+--       integrations = {
+--         markdown = {
+--           enabled = true,
+--           clear_in_insert_mode = false,
+--           download_remote_images = true,
+--           only_render_image_at_cursor = false,
+--           filetypes = { "markdown", "vimwiki" },
+--         },
+--       },
+--       max_width = 200,
+--       max_height = 30,
+--       max_height_window_percentage = math.huge,
+--       max_width_window_percentage = math.huge,
+--       window_overlap_clear_enabled = true,
+--       window_overlap_clear_ft_ignore = { "cmp_menu", "cmp_docs", "" },
+--     },
+--   },
+-- }
